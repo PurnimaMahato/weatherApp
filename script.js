@@ -13,6 +13,11 @@
                 alert("Invalid city name . Please enter correct city name .");
                 document.querySelector(".weather").style.display="none";
             }
+            else if(response.status==400){
+                alert("Please enter the city name.");
+                document.querySelector(".weather").style.display="none";
+
+            }
             
             
             else{

@@ -21,7 +21,7 @@ body {
     background: #ffffff40;
     position: relative;
     color: white;
-    margin: 100px auto 0;
+    margin: 90px auto 0;
     border-radius: 50px;
     padding: 40px 35px;
     text-align: center;
@@ -133,18 +133,27 @@ body {
         width: 90%;
         padding: 20px 10px;
         justify-content: center;
+        margin-top: 70px;
 
+    }
+    .weather-icon{
+        width: 50%;
+        margin-top: 4px;
     }
 
     .details,
     .weather {
         width: 100%;
+        margin-top: 10px ;
+        
+        
     }
 
     .humidity,
     .wind {
 
         font-size: 20px;
+        margin-top: 5px;
     }
 
     .col img {
@@ -158,6 +167,13 @@ body {
 
 
     }
+    .weather h1 {
+       
+        font-size: 60px;
+    }
+    .weather h2 {
+        font-size: 30px;
+    }
 
     .search input {
         width: 100%;
@@ -165,5 +181,6 @@ body {
 
     .search button {
         margin-top: 10px;
+        
     }
 }
